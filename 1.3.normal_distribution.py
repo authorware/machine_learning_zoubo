@@ -5,7 +5,7 @@ import matplotlib.pyplot as plt
 # 数据
 mu = 100  # mean of distribution
 sigma = 15  # standard deviation of distribution
-# np.random.randn(10000)随机生成在(0,1)之间呈正态分布的10000个数
+# np.random.randn(10000)随机生成期望为0，标准差为1的呈标准正态分布的10000个数
 # 为了更好的呈现效果，x加入了均值和标准差偏移
 x = mu + sigma * np.random.randn(10000)
 print(x)
