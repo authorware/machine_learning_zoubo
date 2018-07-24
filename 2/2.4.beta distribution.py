@@ -3,6 +3,7 @@ import numpy as np
 import matplotlib.pyplot as plt
 import matplotlib as mpl
 
+
 if __name__ == '__main__':
     a = [1, 3, 4, 4, 5]
     b = [1, 2, 2, 3, 3]

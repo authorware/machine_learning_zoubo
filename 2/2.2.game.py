@@ -41,7 +41,7 @@ if __name__ == '__main__':
             # print(x, answer)
         p10 = special.comb(2*(N-1), N-1) * ((1-p)*p) ** (N-1)   # 10:10的概率
         t = 0
-        for n in np.arange(100):    # {XO}(0,)|OO   思考：可以如何简化？
-             t += (2*p*(1-p)) ** n * p * p
+        for n in np.arange(100):  # {XO}(0,)|OO   思考：可以如何简化？
+            t += (2 * p * (1 - p)) ** n * p * p
         answer += p10 * t
         print(answer)

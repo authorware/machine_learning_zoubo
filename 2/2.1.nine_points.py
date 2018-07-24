@@ -26,4 +26,3 @@ if __name__ == '__main__':
     plt.plot(x, f, 'go', markersize=8)
     plt.grid(True)
     plt.show()
-
