@@ -4,6 +4,7 @@ import matplotlib.pyplot as plt
 
 
 if __name__ == '__main__':
+
     # 数据
     mu = 100  # mean of distribution
     sigma = 15  # standard deviation of distribution

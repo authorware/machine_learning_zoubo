@@ -8,6 +8,7 @@ import matplotlib.pyplot as plt
 
 
 if __name__ == '__main__':
+
     # 在0到1之间随机生成呈均匀分布的10000个值
     u = np.random.uniform(0.0, 1.0, 10000)
     print(u)

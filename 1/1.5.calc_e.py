@@ -1,5 +1,6 @@
-#不太理解具体操作
-#照搬老师代码
+# 不太理解具体操作
+# 照搬老师代码
+
 
 import numpy as np
 import math
@@ -30,6 +31,7 @@ def calc_e(x):
 
 
 if __name__ == "__main__":
+
     t1 = np.linspace(-2, 0, 10, endpoint=False)
     t2 = np.linspace(0, 4, 20)
     t = np.concatenate((t1, t2))

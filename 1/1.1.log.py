@@ -6,6 +6,7 @@ import matplotlib.pyplot as plt
 
 
 if __name__ == '__main__':
+
     # 注意x的范围，也就是i不能从1开始取
     x = [float(i)/100 for i in range(1, 300)]
     # print(x)

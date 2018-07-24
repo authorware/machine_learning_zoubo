@@ -1,5 +1,5 @@
-#不太理解具体操作
-#照搬老师代码
+# 不太理解具体操作
+# 照搬老师代码
 
 
 import numpy as np
@@ -28,6 +28,7 @@ def calc_sin(x):
 
 
 if __name__ == "__main__":
+
     t = np.linspace(-2*np.pi, 2*np.pi, 100, endpoint=False)
     print(t)     # 横轴数据
     y = np.empty_like(t)
